@@ -1,0 +1,156 @@
+body {
+    background-image: url(../images/register_bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: 500px 702px;
+    
+}
+
+#username, 
+select {
+
+
+    position: relative;
+    top: 301px;
+    left: 89px;
+    outline: none;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+    background: #331936;
+    padding: 20px;
+    width: 275px;
+    height: 13px;
+}
+#password, select {
+    position: relative;
+    top: 307px;
+    left: 89px;
+    outline: none;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+    background: #331936;
+    padding: 20px;
+    width: 275px;
+    height: 14px;
+}
+
+#confirm_password,
+select {
+
+
+    position: relative;
+    top: 300px;
+    left: 88px;
+    outline: none;
+    border-radius: 25px;
+    border-style: none;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+    background: #331936;
+    padding: 20px;
+    width: 275px;
+    height: 13px;
+}
+
+.register-button {
+    font-family: 'Times New Roman';
+    margin: auto;
+    position: fixed;
+    bottom: 45px;
+    left: 27%;
+    right: 0;
+    width: 48%;
+    background-color: #e22bb4;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-button:disabled {
+    opacity: 1;
+    cursor: default;
+    background-color: #331936;
+}
+
+.register-button a:hover {
+    background-color: #e22bb4;
+}
+
+input[type=submit]:hover {
+    background-color: #e22bb4;
+}
+
+.login {
+    color: #e22bb4;
+}
+
+.have {
+    margin: auto;
+    /* Required */
+    position: absolute;
+    /* Required */
+    bottom: 28px;
+    /* Aligns at the bottom */
+    left: 38%;
+    right: 0;
+    /* Aligns horizontal center */
+    font-size: 10.5px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-wrapper label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ce10a5;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked {
+    background-color: rgb(92, 18, 121);
+}
+
+.checkbox-text {
+    opacity: 0.7;
+    font-size: 13px;
+    color: white;
+}
+
+.checkbox-wrapper {
+    margin: auto;
+    /* Required */
+    position: absolute;
+    /* Required */
+    bottom: 99px;
+    left: 15%;
+    right: 0;
+    /* Aligns horizontal center */
+}

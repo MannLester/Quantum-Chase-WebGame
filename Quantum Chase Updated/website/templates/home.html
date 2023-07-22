@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="{{ url_for('static', filename='styles/home.css')}}">
+    <!-- <link rel = "stylesheet" href="C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\styles\home.css"> -->
+    <title>Quantum Chase</title>
+</head>
+<body>
+    <button class = "create-button">
+        <a href = "/register">
+            <img src = "{{url_for('static', filename='images/create.png')}}" alt = "create" id = "create">
+            <!-- <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase\quantum\static\images\create.png" alt = "create" id = "create"> -->
+        </a>
+    </button>
+    <button class = "login-button">
+        <a href = "/login">
+            <img src = "{{url_for('static', filename='images/loginbutton.png')}}" alt = "login" id = "login">
+            <!-- <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase\quantum\static\images\loginbutton.png" alt = "login" id = "login"> -->
+        </a>
+    </button>
+</body>
+</html>

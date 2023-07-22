@@ -1,0 +1,74 @@
+body {
+    background-image: url(../images/bg_quantum.jpg);
+    /* background-image: url("C:/Users/User/OneDrive/Desktop/Quantum Chase Updated/website/static/images/bg_quantum.jpg");  */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: 500px 702px;
+  }
+
+#skill_button1{
+  left: 40px;
+}
+
+#skill_button2{
+  left: 130px;
+}
+
+#skill_button3{
+  left: 220px;
+}
+
+#skill_button4{
+  left: 310px;
+}
+
+#skill_button5{
+  left: 400px;
+}
+
+#skill_textbox{
+  position: relative;
+  right:15px;
+  /* z-index: 1; */
+  width: 500px;
+}
+
+#skill_text{
+  color: white;
+  position: relative;
+  z-index:1;
+  display: none;
+  bottom: 150px;
+  left: 50px;
+}
+
+#skill_description{
+  color: white;
+  position: relative;
+  z-index:1;
+  display: none;
+  bottom: 140px;
+  left: 50px;
+}
+
+#skill_notif{
+  color: white;
+  font-size: small;
+  position: fixed;
+  z-index:1;
+  display: block;
+  bottom: 510px;
+  left: 50px;
+}
+
+#skills{
+  color:white;
+}
+.skill_buttons{
+    position: fixed;
+    top: 520px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }

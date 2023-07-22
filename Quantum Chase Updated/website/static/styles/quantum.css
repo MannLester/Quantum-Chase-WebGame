@@ -1,0 +1,92 @@
+body {
+  background-image: url(../images/menubg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainbox {
+  text-decoration: none;
+  color: beige;
+}
+
+.play {
+  margin: auto;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
+.almanac {
+  margin: auto;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+
+.arrowright {
+  margin: auto;
+  position: fixed;
+  bottom: 50px;
+  left: 42%;
+  right: 0;
+}
+
+.arrowleft {
+  margin: auto;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 42%;
+}
+
+.right1 {
+  margin: auto;
+  position: fixed;
+  bottom: 110px;
+  left: 85%;
+  right: 0;
+}
+
+.right2 {
+  margin: auto;
+  position: fixed;
+  bottom: 80px;
+  left: 85%;
+  right: 0;
+}
+
+.right3 {
+  margin: auto;
+  position: fixed;
+  bottom: 50px;
+  left: 85%;
+  right: 0;
+}
+
+.left1 {
+  margin: auto;
+  position: fixed;
+  bottom: 110px;
+  left: 0;
+  right: 85%;
+}
+
+.left3 {
+  margin: auto;
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  right: 85%;
+}
+
+.left2 {
+  margin: auto;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 85%;
+}

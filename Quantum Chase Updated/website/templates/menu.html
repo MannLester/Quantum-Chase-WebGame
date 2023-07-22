@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/menu.css')}}">
+    <title>QUANTUM CHASE</title>
+  </head>
+  <body>
+      <img id = "sdg1" src="{{ url_for('static', filename='images/SDG1.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg2" src="{{ url_for('static', filename='images/SDG2.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg3" src="{{ url_for('static', filename='images/SDG3.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg4" src="{{ url_for('static', filename='images/SDG4.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg5" src="{{ url_for('static', filename='images/SDG5.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg6" src="{{ url_for('static', filename='images/SDG6.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg7" src="{{ url_for('static', filename='images/SDG7.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg8" src="{{ url_for('static', filename='images/SDG8.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg9" src="{{ url_for('static', filename='images/SDG9.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg10" src="{{ url_for('static', filename='images/SDG10.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg11" src="{{ url_for('static', filename='images/SDG11.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg12" src="{{ url_for('static', filename='images/SDG12.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg13" src="{{ url_for('static', filename='images/SDG13.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg14" src="{{ url_for('static', filename='images/SDG14.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg15" src="{{ url_for('static', filename='images/SDG15.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg16" src="{{ url_for('static', filename='images/SDG16.png')}}" alt="play" width="250" height="200" class="midbox">
+      <img id = "sdg17" src="{{ url_for('static', filename='images/SDG17.png')}}" alt="play" width="250" height="200" class="midbox">
+
+    <div> 
+    <img id = "play_button" src = "{{ url_for('static', filename='images/play_button.png')}}" alt="play" width="100" height="50" class="play">
+    </div>
+    <div>
+    <img id = "donate" src="{{ url_for('static', filename='images/donate.png')}}" alt="play" width="50" height="50" class="almanac">
+    </div>
+    <div>
+        <img id = "next_button" src="{{ url_for('static', filename='images/button_side1_arrow.png')}}" alt="play" width="69" height="75" class="arrowright">
+    </div>
+    <div>
+        <img id = "prev_button" src="{{ url_for('static', filename='images/button_side2_arrow.png')}}" alt="play" width="69" height="75" class="arrowleft">
+    </div>
+    <div>
+        <img id = "friends" src="{{ url_for('static', filename='images/friends.png')}}" alt="play" width="25" height="25" class="right1">
+    </div>
+    <div>
+        <img id = "credits" src="{{ url_for('static', filename='images/credits.png')}}" alt="play" width="25" height="25" class="right2">
+    </div>
+    <div>
+        <img id = "settings" src="{{ url_for('static', filename='images/settings.png')}}" alt="play" width="25" height="25" class="right3">
+    </div>
+    <div>
+        <img id = "almanac" src="{{ url_for('static', filename='images/almanac.png')}}" alt="play" width="25" height="25" class="left1">
+    </div>
+    <div>
+      <img id = "trophies" src="{{ url_for('static', filename='images/trophies.png')}}" alt="play" width="25" height="25" class="left2">
+    </div>
+    <div>
+    <a href = "/how_to_play"><img id = "how_to_play" src="{{ url_for('static', filename='images/how_to_play.png')}}" alt="play" width="25" height="25" class="left3"></a>
+    </div>
+
+    <script defer src = "{{ url_for('static', filename='styles/menu.js')}}"></script>
+    <form method = "GET">
+    <p id = "sdg-value"></p>
+    </form>
+  </body>
+</html>

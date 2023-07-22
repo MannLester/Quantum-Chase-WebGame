@@ -1,0 +1,98 @@
+body {
+  background-image: url(../images/bg_quantum.jpg); 
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size: 500px 702px;
+}
+.passives{
+  position: fixed;
+  top: 300px;
+  left: 80px;
+}
+
+/* #vitality_cascade {
+  left: 8px;
+  right: 20px;
+  width: 80px;
+  height: 270px;
+}
+
+#aegis_flux {
+  left: 28px;
+  right: 20px;
+  width: 80px;
+}
+
+#unleashed_arsenal {
+  left: 30px;
+  right: 20px;
+  width: 80px;
+}
+
+#risky_refinement {
+  left: 61px;
+  right: -30px;
+  width: 80px;
+} */
+
+.buttons{
+  position: fixed;
+  top: 580px;
+  right: 130px;
+}
+
+ #red_button{
+  position:relative;
+  left: 20px;
+}
+
+#blue_button{
+  position: relative;
+  left: 4px;
+}
+
+#yellow_button{
+  position: relative;
+  right: 18px;
+}
+
+#green_button{
+  position: relative;
+  right: 45px;
+} 
+
+#passive_textbox{
+  position: relative;
+  right:15px;
+  /* z-index: 1; */
+  width: 500px;
+}
+
+#passive_text{
+  color: white;
+  position: relative;
+  z-index:1;
+  display: none;
+  bottom: 150px;
+  left: 50px;
+}
+
+#passive_description{
+  color: white;
+  position: relative;
+  z-index:1;
+  display: none;
+  bottom: 130px;
+  left: 50px;
+}
+
+#sdg{
+  color:white;
+}
+
+.passive_buttons{
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

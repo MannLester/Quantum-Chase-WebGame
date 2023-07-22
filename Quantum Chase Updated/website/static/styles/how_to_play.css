@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/bg_quantum.jpg); 
+    /* background-image: url("C:/Users/User/OneDrive/Desktop/Quantum Chase/quantum/static/images/home_bg.png");  */
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size: 500px 702px;
+    color: white;
+    margin:0%;
+  }

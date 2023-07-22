@@ -1,0 +1,630 @@
+[
+    {
+        "question": "What is the first SDG goal?",
+        "choices": [
+            "No Poverty",
+            "Zero Hunger",
+            "Quality Education",
+            "Clean Water and Sanitation"
+        ],
+        "answer": "No Poverty",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the definition of poverty?",
+        "choices": [
+            "Lack of money",
+            "Lack of education",
+            "Lack of food",
+            "All of the above"
+        ],
+        "answer": "Lack of money",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What percentage of the world's population lives in extreme poverty?",
+        "choices": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+        ],
+        "answer": "10%",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the poverty line in the United States?",
+        "choices": [
+            "$10 a day",
+            "$20 a day",
+            "$30 a day",
+            "$40 a day"
+        ],
+        "answer": "$10 a day",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that aims to reduce poverty in the United States?",
+        "choices": [
+            "Social Security",
+            "Medicaid",
+            "Food Stamps",
+            "TANF"
+        ],
+        "answer": "TANF",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the organization that works to reduce poverty?",
+        "choices": [
+            "UNICEF",
+            "WHO",
+            "UNESCO",
+            "UNDP"
+        ],
+        "answer": "UNDP",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides cash transfers to poor families in Mexico?",
+        "choices": [
+            "PROSPERA",
+            "Bolsa Familia",
+            "Oportunidades",
+            "Familias en Accion"
+        ],
+        "answer": "Oportunidades",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides food assistance to poor families in the United States?",
+        "choices": [
+            "WIC",
+            "SNAP",
+            "LIHEAP",
+            "TANF"
+        ],
+        "answer": "SNAP",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides healthcare to poor families in the United States?",
+        "choices": [
+            "Medicaid",
+            "Medicare",
+            "CHIP",
+            "VA"
+        ],
+        "answer": "Medicaid",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the international organization that provides loans to poor countries?",
+        "choices": [
+            "World Bank",
+            "IMF",
+            "ADB",
+            "NDB"
+        ],
+        "answer": "World Bank",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the poverty rate in the United States?",
+        "choices": [
+            "10%",
+            "15%",
+            "20%",
+            "25%"
+        ],
+        "answer": "10%",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the poverty rate in sub-Saharan Africa?",
+        "choices": [
+            "20%",
+            "30%",
+            "40%",
+            "50%"
+        ],
+        "answer": "40%",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides bousing assitance to low-income families in the United States?",
+        "choices": [
+            "Section 8",
+            "Low Income Home Energy Assistance Program",
+            "Community Development Block Grant",
+            "HOmelessness Prevention and Rapid Re-Housing Program"
+        ],
+        "answer": "Section 8",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides cash transfers to poor families in Brazil?",
+        "choices": [
+            "PROSPERA",
+            "Bolsa Familia",
+            "Oportunidades",
+            "Familias en Accion"
+        ],
+        "answer": "Bolsa Familia",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides food assistance to poor families in India?",
+        "choices": [
+            "Mid-Day Meal Scheme",
+            "Public Distribution System",
+            "Integrated Child Development Services",
+            "National Health Mission"
+        ],
+        "answer": "Public Distribution System",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the international organization that provides humanitarian aid to people affected by poverty?",
+        "choices": [
+            "UNICEF",
+            "WHO",
+            "WFP",
+            "UNDP"
+        ],
+        "answer": "WFP",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in the United Kingdom?",
+        "choices": [
+            "Universal Credit",
+            "Child Benefit",
+            "Housing Benefit",
+            "Jobseeker's Allowance"
+        ],
+        "answer": "Universal Credit",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in New Zealand?",
+        "choices": [
+            "Working for Families",
+            "Jobseeker Support",
+            "Supported Living Payment",
+            "Child Disability Allowance"
+        ],
+        "answer": "Working for Families",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the poverty rate in Mexico?",
+        "choices": [
+            "10%",
+            "20%",
+            "30%",
+            "40%"
+        ],
+        "answer": "40%",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in Sweden?",
+        "choices": [
+            "Social Assistance",
+            "Child Allowance",
+            "Housing Allowance",
+            "Maintenance Support"
+        ],
+        "answer": "Child Allowance",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in Norway?",
+        "choices": [
+            "Child Benefit",
+            "Housing Benefit",
+            "Cash for Care",
+            "Social Assistance"
+        ],
+        "answer": "Cash for Care",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in Germany?",
+        "choices": [
+            "Child Benefit",
+            "Hartz IV",
+            "Unemployment Benefit II",
+            "Pension Benefit"
+        ],
+        "answer": "Hartz IV",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in France?",
+        "choices": [
+            "Housing Allowance",
+            "Social Allowance",
+            "Family Allowance",
+            "Childcare Allowance"
+        ],
+        "answer": "Family Allowance",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in Japan?",
+        "choices": [
+            "Child Benefit",
+            "Childcare Allowance",
+            "Housing Benefit",
+            "Basic Pension"
+        ],
+        "answer": "Childcare Allowance",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in South Korea?",
+        "choices": [
+            "National Basic Livelihood Security System",
+            "Child Benefit",
+            "Housing Benefit",
+            "Basic Pension"
+        ],
+        "answer": "National Basic Livelihood Security System",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in China?",
+        "choices": [
+            "Dibao",
+            "Child Benefit",
+            "Housing Benefit",
+            "Social Security"
+        ],
+        "answer": "Dibao",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in Indonesia?",
+        "choices": [
+            "Beras Sejahtera",
+            "Program Keluarga Harapan",
+            "Kartu Indonesia Pintar",
+            "Jaminan Kesehatan Nasional"
+        ],
+        "answer": "Program Keluarga Harapan",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in South Africa",
+        "choices": [
+            "Child Support Grant",
+            "Old Age Pension",
+            "Disability Grant",
+            "Foster Care Grant"
+        ],
+        "answer": "Child Support Grant",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in India?",
+        "choices": [
+            "Jan Dhan Yojana",
+            "Pradhan Mantri Awas Yojana",
+            "Atal Pension Yojana",
+            "National Rural Employment Guarantee Scheme"
+        ],
+        "answer": "National Rural Employment Guarantee Scheme",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in the United States?",
+        "choices": [
+            "Supplemental Nutrition Assistance Program",
+            "Temporary Assistance for Needy Families",
+            "Earned Income Tax Credit",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the name of the program that provides financial assistance to poor families in Australia?",
+        "choices": [
+            "Newstart Allowance",
+            "Family Tax Benefit",
+            "Age Pension",
+            "Career Payment"
+        ],
+        "answer": "Family Tax Benefit",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    },
+    {
+        "question": "",
+        "choices": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "answer": "",
+        "difficulty": ""
+    }
+
+]

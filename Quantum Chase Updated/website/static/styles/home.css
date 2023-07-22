@@ -1,0 +1,59 @@
+body {
+  background-image: url(../images/home_bg.png); 
+  /* background-image: url("C:/Users/User/OneDrive/Desktop/Quantum Chase/quantum/static/images/home_bg.png");  */
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size: 500px 702px;
+}
+.create-button {
+  font-family:'Times New Roman';
+  margin:auto;
+  position:fixed;
+  bottom:339px; 
+  left:15%;right:0; 
+  width: 69.8%;
+  height: 8.9%;
+  background-color: #331936;
+  color: white;
+  padding: 7px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+}
+
+.create-button:hover{
+  transition: .5s;
+  background-color: #e22bb4;
+}
+
+.login-button {
+font-family:'Times New Roman';
+margin:auto;
+position:fixed;
+bottom:256px; 
+left:17.5%;right:0; 
+width: 64%;
+height: 8%;
+background-color: #331936;
+color: white;
+padding: 3px 45px;
+margin: 8px 0;
+border: none;
+border-radius: 75px;
+cursor: pointer;
+}
+
+.login-button:hover{
+  transition: .5s;
+  background-color: #e22bb4;
+}
+
+#create {
+  width: 50%;
+}
+
+#login {
+  width:50%;
+}

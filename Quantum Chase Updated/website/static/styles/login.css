@@ -1,0 +1,85 @@
+body {
+  background-image: url(../images/login_bg.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+  background-size: 500px 702px;
+}
+
+#username,
+select {
+  position: relative;
+  top: 358px;
+  left: 59px;
+  outline: none;
+  border-radius: 75px;
+  border-style: none;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(250, 248, 248);
+  background: #331936;
+  padding: 20px;
+  width: 326px;
+  height: 24px;
+}
+
+#password,
+select {
+  position: relative;
+  top: 359px;
+  left: 59px;
+  outline: none;
+  border-radius: 75px;
+  border-style: none;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(250, 248, 248);
+  background: #331936;
+  padding: 20px;
+  width: 326px;
+  height: 24px;
+}
+
+.login-button {
+  font-family: 'Times New Roman';
+  margin: auto;
+  position: fixed;
+  bottom: 50px;
+  left: 22.7%;
+  right: 0;
+  width: 55%;
+  height: 48px;
+  background-color: #331936;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  transition: .5s;
+  background-color: #e22bb4;
+}
+
+.login {
+  margin: auto;
+  /* Required */
+  position: fixed;
+  /* Required */
+  bottom: 30px;
+  left: 35%;
+  right: 0;
+  /* Aligns horizontal center */
+  font-size: 10.5px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.register {
+  color: #e22bb4;
+}

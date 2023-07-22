@@ -1,0 +1,167 @@
+body {
+    background-image: url(../images/bg_quantum.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    background-size: cover;
+  }
+  .mainbox {
+    text-decoration: none; color: beige;
+  }
+
+.midbox {
+    margin:auto; /* Required */
+    position:absolute; /* Required */
+    bottom:200px; /* Aligns at the bottom */
+    left:0;right:0; /* Aligns horizontal center */
+    height: 350px;
+    width: 280px;
+    opacity: 0.9;
+}
+
+.play {
+    margin:auto; /* Required */
+    position:absolute; /* Required */
+    bottom:100px; /* Aligns at the bottom */
+    left:0;right:0; /* Aligns horizontal center */
+  }
+  .play:active{
+    filter:brightness(50%)
+  }
+  .almanac {
+    margin:auto; /* Required */
+    position:absolute; /* Required */
+    bottom: 50px;
+    left:0;right:0; /* Aligns horizontal center */
+  }
+  .almanac:active{
+    filter:brightness(50%)
+  }
+  .arrowright {
+    margin:auto; /* Required */
+    position:fixed; /* Required */
+    bottom: 50px;
+    left:25%;right:0; /* Aligns horizontal center */
+  }
+  .arrowright:active{
+    filter:brightness(50%)
+  }
+  .arrowleft {
+    margin:auto; /* Required */
+    position:fixed; /* Required */
+    bottom: 50px;
+    left:0;right:25%; /* Aligns horizontal center */
+  }
+  .arrowleft:active{
+    filter:brightness(50%)
+  }
+  .right1 {
+    margin:auto; /* Required */
+    position:fixed; /* Required */
+    bottom: 110px;
+    left:85%;right:0; /* Aligns horizontal center */
+  }
+  .right1:active{
+    filter:brightness(50%)
+  }
+.right2 {
+  margin:auto; /* Required */
+  position:fixed; /* Required */
+  bottom: 80px;
+  left:85%;right:0; /* Aligns horizontal center */
+}
+.right2:active{
+    filter:brightness(50%)
+  }
+.right3 {
+  margin:auto; /* Required */
+  position:fixed; /* Required */
+  bottom: 50px;
+  left:85%;right:0; /* Aligns horizontal center */
+}
+.right3:active{
+    filter:brightness(50%)
+  }
+.left1 {
+    margin:auto; /* Required */
+    position:fixed; /* Required */
+    bottom: 110px;
+    left:0;right:85%; /* Aligns horizontal center */
+  }
+  .left1:active{
+    filter:brightness(50%)
+  }
+  .left3 {
+    margin:auto; /* Required */
+    position:fixed; /* Required */
+    bottom: 80px;
+    left:0;right:85%; /* Aligns horizontal center */
+  }
+  .left3:active{
+    filter:brightness(50%)
+  }
+  .left2 {
+    margin:auto; /* Required */
+    position:fixed; /* Required */
+    bottom: 50px;
+    left:0;right:85%; /* Aligns horizontal center */
+  }
+  .left2:active{
+    filter:brightness(50%)
+  }
+#sdg1{
+  display: block;
+}
+#sdg2{
+  display:none;
+}
+#sdg3{
+  display:none;
+}
+#sdg4{
+  display:none;
+}
+#sdg5{
+  display:none;
+}
+#sdg6{
+  display:none;
+}
+#sdg7{
+  display:none;
+}
+#sdg8{
+  display:none;
+}
+#sdg9{
+  display:none;
+}
+#sdg10{
+  display:none;
+}
+#sdg11{
+  display:none;
+}
+#sdg12{
+  display:none;
+}
+#sdg13{
+  display:none;
+}
+#sdg14{
+  display:none;
+}
+#sdg15{
+  display:none;
+}
+#sdg16{
+  display:none;
+}
+#sdg17{
+  display:none;
+}
+#sdg-value{
+  display:none;
+}
+
+  

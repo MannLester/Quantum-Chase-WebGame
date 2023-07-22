@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <script>
+        // Function to get the value of the 'sdg' parameter from the URL
+        function getSDGValue() {
+          var url = window.location.pathname;
+          var parts = url.split('/')
+          var sdg = parts[parts.length - 1];
+          var sdg_name = "";
+          if (sdg == 1){
+            sdg_name = "No Poverty";
+          } else if (sdg == 2){
+            sdg_name = "Zero Hunger";
+          } else if (sdg == 3){
+            sdg_name = "Good Health and Well-Being";
+          } else if (sdg == 4){
+            sdg_name = "Quality Education";
+          } else if (sdg == 5){
+            sdg_name = "Gender Equality";
+          } else if (sdg == 6){
+            sdg_name = "Clean Water and Sanitation";
+          } else if (sdg == 7){
+            sdg_name = "Affordable and Clean Energy";
+          } else if (sdg == 8){
+            sdg_name = "Decent Work and Economic Growth";
+          } else if (sdg == 9){
+            sdg_name = "Industry, Innovation, and Infrastructure";
+          } else if (sdg == 10){
+            sdg_name = "Reduced Inequalities";
+          } else if (sdg == 11){
+            sdg_name = "Sustainable Cities and Communities";
+          } else if (sdg == 12){
+            sdg_name = "Responsible Consumption and Production";
+          } else if (sdg == 13){
+            sdg_name = "Climate Action";
+          } else if (sdg == 14){
+            sdg_name = "Life Below Water";
+          } else if (sdg == 15){
+            sdg_name = "Life on Land";
+          } else if (sdg == 16){
+            sdg_name = "Peace, Justice, and Strong Institutions";
+          } else if (sdg == 17){
+            sdg_name = "Partnerships for SDG Goals";
+          }
+          return { sdg:sdg, sdg_name:sdg_name};
+        }
+    
+        // Function to display the 'sdg' value on the page
+        function displaySDGValue() {
+          var sdgData = getSDGValue();
+          var sdgElement = document.getElementById('sdg-value');
+          var sdgDescription = document.getElementById('sdg-description');
+          sdgElement.textContent = sdgData.sdg;
+          sdgDescription.textContent = sdgData.sdg_name;
+        }
+        function showPassiveName(passive_name, passive_description) {
+          var passiveDescription = document.getElementById('passive_description');
+          var passiveText = document.getElementById('passive_text');
+          passiveText.textContent = passive_name;
+          passiveText.style.display = 'block';
+          passiveDescription.textContent = passive_description;
+          passiveDescription.style.display = 'block';
+      }
+  
+      // Function to hide the passive name when not hovering
+      function hidePassiveName() {
+          var passiveText = document.getElementById('passive_text');
+          var passiveDescription = document.getElementById('passive_description');
+          passiveText.style.display = 'none';
+          passiveDescription.style.display = 'none';
+      }
+      </script>
+      <!-- <link rel = "stylesheet" href="C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\styles\loadout.css"> -->
+      <link rel = "stylesheet" href="{{ url_for('static', filename='styles/loadout.css')}}">
+</head>
+<body onload = "displaySDGValue()">
+  <form id = "sdg" method = 'POST'>
+  <center><h2>SDG <span id="sdg-value"></span></h2></center>
+  <center><h3><span id = "sdg-description"></span></h3></center>
+  <div class = "passive_textbox">
+    <center><h3>Passives</h3></center>
+    <img src = "{{ url_for('static', filename='images/passive_text_box.png')}}" id = "passive_textbox">
+    <!-- <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\passive_text_box.png" id = "passive_textbox"> -->
+    <h4 id = "passive_text"></h4>
+    <h6 id = "passive_description"></h6>
+  </div>
+  <div class = "passives">
+    <img src = "{{ url_for('static', filename='images/passive_vitality_cascade.png')}}" id = "vitality_cascade">
+    <img src = "{{ url_for('static', filename='images/passive_aegis_flux.png')}}" id = "aegis_flux">
+    <img src = "{{ url_for('static', filename='images/passive_unleashed_arsenal.png')}}" id = "unleashed_arsenal">
+    <img src = "{{ url_for('static', filename='images/passive_risky_refinement.png')}}" id = "risky_refinement">
+    <!-- <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\passive_vitality_cascade.png" id = "vitality_cascade">
+    <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\passive_aegis_flux.png" id = "aegis_flux">
+    <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\passive_unleashed_arsenal.png" id = "unleashed_arsenal">
+    <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\passive_risky_refinement.png" id = "risky_refinement"> -->
+  </div>
+  <div class = "buttons">
+    <button type = "submit"  name = "passive" value = "green_button" class = "passive_buttons">
+      <img src = "{{ url_for('static', filename='images/green_button.png')}}" id = "green_button" onmouseover="showPassiveName('Vitality Cascade','Answering 2 consecutive right answers will heal you by 1')" onmouseout="hidePassiveName()">
+    </button>
+    <button type = "submit"  name = "passive" value = "yellow_button" class = "passive_buttons">
+      <img src = "{{ url_for('static', filename='images/yellow_button.png')}}" id = "yellow_button" onmouseover="showPassiveName('Aegis Flux','At random intervals, the player will receive a shield')" onmouseout="hidePassiveName()">
+    </button>
+    <button type = "submit"  name = "passive" value = "blue_button" class = "passive_buttons">
+      <img src = "{{ url_for('static', filename='images/blue_button.png')}}" id = "blue_button" onmouseover="showPassiveName('Unleashed Arsenal','Can bring 1 more skill to the game')" onmouseout="hidePassiveName()">
+    </button>
+    <button type = "submit"  name = "passive" value = "red_button" class = "passive_buttons">
+      <img src = "{{ url_for('static', filename='images/red_button.png')}}" id = "red_button" onmouseover="showPassiveName('Risky Refinement','Gains more points but also receives more damage')" onmouseout="hidePassiveName()">
+    </button>
+    <!-- <button type = "submit"  name = "passive" value = "green_button" class = "passive_buttons">
+      <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\green_button.png" id = "green_button">
+    </button>
+    <button type = "submit"  name = "passive" value = "green_button" class = "passive_buttons">
+      <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\yellow_button.png" id = "yellow_button">
+    </button>
+    <button type = "submit"  name = "passive" value = "green_button" class = "passive_buttons">
+      <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\blue_button.png" id = "blue_button">
+    </button>
+    <button type = "submit"  name = "passive" value = "green_button" class = "passive_buttons">
+      <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\red_button.png" id = "red_button">
+    </button> -->
+  </div>
+  </form>
+</body>
+</html>

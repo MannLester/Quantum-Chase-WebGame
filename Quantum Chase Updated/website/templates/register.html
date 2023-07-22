@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Quantum Chase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/register.css')}}">
+    <!-- <link rel="stylesheet" href="C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\styles\register.css"> -->
+</head>
+
+<body>
+    <div>
+        <form method="POST">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="Your username..">
+            <br><br><br><br>
+            <label for="password"></label>
+            <input type="password" id="password" name="password" placeholder="Your password..">
+            <br><br><br><br>
+            <label for="confirm_password"></label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Your password..">
+
+            <div class="wrap">
+                <button type="submit" class="register-button" disabled>Register</button>
+            </div>
+        </form>
+    </div>
+    <div class="wrap">
+        <div class="checkbox-wrapper">
+            <label>
+                <input type="checkbox" name="terms" value="agree" id="terms-checkbox">
+                <span class="checkbox-text">Agree to Terms and Conditions</span>
+            </label>
+        </div>
+
+        <p class="have">Have an account? <a class="login" href="/login">LOGIN</a></p>
+
+
+        <script>
+            const termsCheckbox = document.getElementById("terms-checkbox");
+            const registerButton = document.querySelector(".register-button");
+
+            termsCheckbox.addEventListener("change", function () {
+                if (this.checked) {
+                    registerButton.removeAttribute("disabled");
+                } else {
+                    registerButton.setAttribute("disabled", true);
+                }
+            });
+        </script>
+
+        {% with messages = get_flashed_messages(with_categories = true) %}
+        {% if messages %}
+        {% for category, message in messages %}
+        {% if category == "error" %}
+        <div class="alert alert-danger alert-dismissable fade show" role="alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        {% else %}
+        <div class="alert alert-success alert-dismissable fade show" role="alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+</body>
+
+</html>

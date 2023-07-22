@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <!-- <link rel="stylesheet" href="C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\styles\skills.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/skills.css')}}">
+    <script>
+        function showSkillName(skill_name, skill_description) {
+            var skillDescription = document.getElementById('skill_description');
+            var skillText = document.getElementById('skill_text');
+            skillText.textContent = skill_name;
+            skillText.style.display = 'block';
+            skillDescription.textContent = skill_description;
+            skillDescription.style.display = 'block';
+        }
+    
+        // Function to hide the passive name when not hovering
+        function hideSkillName() {
+            var skillText = document.getElementById('skill_text');
+            var skillDescription = document.getElementById('skill_description');
+            skillText.style.display = 'none';
+            skillDescription.style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <form id ="skills">
+        <div class = "passive_textbox">
+            <center><h3>Skills</h3></center>
+            <img src = "{{ url_for('static', filename='images/passive_text_box.png')}}" id = "skill_textbox">
+            <!-- <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\passive_text_box.png" id = "skill_textbox"> -->
+            <h4 id = "skill_text"></h4>
+            <h6 id = "skill_description"></h6>
+            <p id = "skill_notif"> Pick {{skills_counter}} skills!</p>
+        </div>
+        <div class = "buttons">
+            <!-- <button type = "submit" class = "skill_buttons" id = "skill_button1">
+                <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\skill_button1.png">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button2">
+                <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\skill_button2.png">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button3"> 
+                <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\skill_button3.png">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button4">
+                <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\skill_button4.png">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button5">
+                <img src = "C:\Users\User\OneDrive\Desktop\Quantum Chase Updated\website\static\images\skill_button5.png">
+            </button> -->
+            <button type = "submit" class = "skill_buttons" id = "skill_button1">
+                <img src = "{{ url_for('static', filename='images/skill_button1.png')}}" onmouseover="showSkillName('Healstream Surge','Instantly heals you by 1')" onmouseout="hideSkillName()">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button2">
+                <img src = "{{ url_for('static', filename='images/skill_button2.png')}}" onmouseover="showSkillName('Quantum Leap','Lets you skip a question')" onmouseout="hideSkillName()">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button3"> 
+                <img src = "{{ url_for('static', filename='images/skill_button3.png')}}" onmouseover="showSkillName('Intuition Insight','Removes 2 non-correct choices')" onmouseout="hideSkillName()">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button4">
+                <img src = "{{ url_for('static', filename='images/skill_button4.png')}}" onmouseover="showSkillName('Resilient Echo','Revives the player with one health')" onmouseout="hideSkillName()">
+            </button>
+            <button type = "submit" class = "skill_buttons" id = "skill_button5">
+                <img src = "{{ url_for('static', filename='images/skill_button5.png')}}" onmouseover="showSkillName('Skill Resurgence','Instantly resets your other skills')" onmouseout="hideSkillName()">
+            </button>
+        </div>
+    </form>
+</body>
+</html>
