@@ -1,8 +1,7 @@
 <h1 align = "center"> QUANTUM CHASE: Hunt for Victory in the Quantum Realm </h1>
-<h2 align = "center">(Console Version)</h2>
 
 <h2 id = "description">Description</h2>
-<p>&nbsp;&nbsp;&nbsp;In Quantum Chase: Hunt For Victory In The Quantum Realm, the users will embark on a journey through the quantum realm, where they will be challenged with questions related to the 17 SDGs. This program is the console version of the planned web game Quantum Chase (coming soon).</p>
+<p>&nbsp;&nbsp;&nbsp;In Quantum Chase: Hunt For Victory In The Quantum Realm, the users will embark on a journey through the quantum realm, where they will be challenged with questions related to the 17 SDGs. </p>
 <p>The program incorporates the basic quiz-based game setup which includes a dictionary of questions from different SDGs. It also incorporates passive and skill features that can be used by player to aid them in their game. However, it is of assurance that the passive and skills will not hinder the main purpose of the program, which is to raise awareness.
 
 <h2 id = "purpose">Purpose of the Program</h2>
